@@ -1,0 +1,76 @@
+ 
+############################
+# Strapi Generated Files
+############################
+.tmp/
+.cache/
+build/
+dist/
+.strapi-updater.json
+
+############################
+# Database
+############################
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+############################
+# Dependencies
+############################
+node_modules/
+
+############################
+# Environment & Secrets
+############################
+.env
+.env.local
+.env.production
+.env.staging
+
+############################
+# Logs
+############################
+*.log
+logs/
+.npm
+.yarn-integrity
+.yarn-error.log
+
+############################
+# OS Generated
+############################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+$RECYCLE.BIN/
+
+############################
+# IDE
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+############################
+# Strapi Client (auto-generated)
+############################
+.strapi/client/
+
+############################
+# Uploads (optional - see note below)
+############################
+public/uploads/*
+!public/uploads/.gitkeep
+
+############################
+# License (auto-generated)
+############################
+license.txt
